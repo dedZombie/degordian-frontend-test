@@ -1,0 +1,10 @@
+/*
+  *
+  * @description Mixin that creates variable width
+  * @author Milos Marinkovic
+  * @params ($property, $value)
+  *
+*/
+@mixin make-width($property, $value) {
+  #{$property}: $value;
+}

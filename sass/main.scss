@@ -1,9 +1,15 @@
 @import "./fonts.scss";
 @import "~bootstrap/scss/bootstrap";
 @import "./variables.scss";
+@import "./mixins.scss";
+@import "./components/btn.scss";
 @import "./components/navbar.scss";
+@import "./components/overlay.scss";
+@import "./components/placeholder.scss";
 @import "./components/greetings-section.scss";
 @import "./components/slider.scss";
+@import "./components/about-section.scss";
+@import "./components/advertise-section.scss";
 
 body {
   font-family: Montserrat, SourceSansPro, Arial, helvetica, sans-serif;

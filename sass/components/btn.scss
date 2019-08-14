@@ -1,0 +1,20 @@
+.button {
+  display: block;
+  width: 100%;
+  border-radius: 30px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border: 0;
+
+  &.button-green {
+    background-color: $color-green--light
+  }
+
+  &.button-blue {
+    background-color: $color-primary;
+  }
+}
