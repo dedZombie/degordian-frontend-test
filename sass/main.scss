@@ -1,3 +1,10 @@
+@import "./fonts.scss";
 @import "~bootstrap/scss/bootstrap";
 @import "./variables.scss";
 @import "./components/navbar.scss";
+@import "./components/greetings-section.scss";
+@import "./components/slider.scss";
+
+body {
+  font-family: Montserrat, SourceSansPro, Arial, helvetica, sans-serif;
+}

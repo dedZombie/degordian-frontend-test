@@ -1,0 +1,118 @@
+#greetings-section {
+  position: relative;
+  width: 100%;
+  height: 567px;
+  overflow: hidden;
+  background: url(/img/homepage-login-prog.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  & .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,255,255,0.31) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(255,255,255,0.31)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,255,255,0.31) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,255,255,0.31) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,255,255,0.31) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(255,255,255,0.31) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff', GradientType=0 );
+    z-index: 0;
+  }
+  // img {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   min-width: 100%;
+  //   min-height: 100%;
+  //   object-fit: cover;
+  //   width: 100%;
+  //   height: auto;
+  //   z-index: -1;
+  //   transform: scale3d(1.2,1.2,1);
+  // }
+}
+
+.greetings-content {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  padding: 0 10px;
+
+  .greetings-title {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+    color: white;
+    margin-bottom: 74px;
+    z-index: 1;
+  }
+
+  form {
+    input[data-icon="pin"] {
+      width: 100%;
+      border-radius: 3.51px;
+      padding: 24px 45px 24px 10px;
+      font-family: SourceSansPro;
+      font-weight: 400;
+      font-size: 16px;
+      color: $form-color;
+      background: url(/static/icons/pin.svg) no-repeat rgb(255,255,255);
+      background-position: 91% center;
+      margin-bottom: 10px;
+    }
+    [data-icon="arrow"] {
+      display: block;
+      width: 100%;
+      border-radius: 3.51px;
+      padding: 10px;
+      font-family: SourceSansPro;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: left;
+      color: $form-color;
+      background: url(/static/icons/arrow.svg) no-repeat rgb(255,255,255);
+      background-position: 91% center;
+      border: 0;
+      margin-bottom: 10px;
+      &::after {
+        content: "";
+        display: none;
+      }
+    }
+    .search-btn {
+      display: block;
+      width: 100%;
+      border-radius: 3.51px;
+      border: 0;
+      padding: 10px;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 16px;
+      text-align: center;
+      color: white;
+      background: url(/static/icons/search.svg) no-repeat $color-green--light;
+      background-position: 30% center;
+      margin-bottom: 26px;
+    }
+  }
+}
+
+.placeholder-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  background-color: black;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
