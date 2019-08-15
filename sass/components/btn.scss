@@ -17,4 +17,14 @@
   &.button-blue {
     background-color: $color-primary;
   }
+
+  &.button-transparent {
+    font-size: 14px;
+    background-color: transparent;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-bottom: 30px;
+    border: 1.6px solid $color-green--light;
+    @include make-width(width, 80%);
+  }
 }

@@ -1,0 +1,42 @@
+body {
+  font-family: Montserrat, SourceSansPro, Arial, helvetica, sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.border-white {
+  border-color: white;
+}
+
+.mb-10 {
+  @include make-width(margin-bottom, 10px);
+}
+
+.mb-65 {
+  @include make-width(margin-bottom, 65px);
+}
+
+.text-opensans {
+  font-family: OpenSans;
+}
+
+.text-montserrat {
+  font-family: Montserrat;
+}
+
+.text-xs {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.text-sm {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.text-semi {
+  font-size: 16px;
+  font-weight: 600;
+}

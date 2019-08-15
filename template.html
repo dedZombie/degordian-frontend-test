@@ -9,24 +9,41 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light navbar-main">
     <a class="navbar-brand" href="#">
-      <img src="./img/logo.png" alt="logo image" class="img-fluid">
+      <img src="./static/icons/logo.svg" alt="logo image" class="img-fluid">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="hamburger hamburger--squeeze" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link text-white" href="#">Why Novogradnja <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link text-white" href="#">FAQ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link text-white" href="#">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <button class="button button-transparent">List your property</button>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Log in <img src="./static/icons/login.svg" alt="login icon"></a>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <button class="dropdown-toggle" type="button" id="lang-dropdown" data-icon="arrow" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="./static/icons/united-kingdom.svg" alt="">
+            </button>
+            <div class="dropdown-menu w-100" aria-labelledby="lang-dropdown">
+              <a href="#" class="dropdown-item">Item 1</a>
+              <a href="#" class="dropdown-item">Item 2</a>
+              <a href="#" class="dropdown-item">Item 3</a>
+            </div>
+          </div>
         </li>
       </ul>
     </div>
@@ -72,8 +89,74 @@
     </section>
 
     <section id="advertise-section">
-      <div class="placeholder-image advertise">DESKTOP 300x250</div>
+      <div class="placeholder-container">
+        <div class="placeholder-image advertise">DESKTOP 300x250</div>
+      </div>
+      <div class="advertise-content-container">
+        <h2 class="advertise-title">Have a property that you would like to advertise?</h2>
+        <p class="advertise-title sub">We have a quick and easy solution for you</p>
+        <p class="advertise-title content">You are developing a Building, a Resort, a Condo Hotel Whatever the type of properties are included in your development Located in Croatia, in Montenegro, in Serbia It Has Its Place Here!</p>
+        <button class="button button-blue mb-65">List your property</button>
+      </div>
+      <img src="./img/macbook-prog.jpg" alt="" class="img-fluid">
     </section>
+
+    <footer id="footer">
+      <div class="top-section">
+        <ul class="footer-nav">
+          <li>
+            <a href="#">Why Novogradnja</a>
+          </li>
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+          <li>
+            <a href="#">Contact us</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+        </ul>
+        <button class="button button-transparent">List your property</button>
+        <ul class="footer-nav social">
+          <li>
+            <a href="#"><img src="./static/icons/facebook.svg" alt="facebook"></a>
+          </li>
+          <li>
+            <a href="#"><img src="./static/icons/instagram.svg" alt="instagram"></a>
+          </li>
+          <li>
+            <a href="#"><img src="./static/icons/twitter.svg" alt="twitter"></a>
+          </li>
+          <li>
+            <a href="#"><img src="./static/icons/linkedin.svg" alt="linkedin"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="middle-section">
+        <p class="text-semi text-white text-montserrat mb-10">Montenegro Novogradnja</p>
+        <div data-icon="pin">
+          <a href="#">
+            <img src="./static/icons/pin.svg" alt="pin icon">
+            Njegoseva 10, Tivat
+          </a>
+        </div>
+        <p class="text-sm text-white text-opensans mb-10">Mon - Fri: 10:00 - 18:00</p>
+        <p class="text-sm text-white text-opensans mb-0">Sat: 10:00 - 16:00</p>
+      </div>
+      <div class="bottom-section">
+        <ul class="footer-nav terms">
+          <li><a href="#">General Terms and Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="disclaimer">
+        <p class="text-xs text-montserrat text-white mb-0">All rights reserved Novogradnja</p>
+      </div>
+    </footer>
   </div>
 </body>
 </html>

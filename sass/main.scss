@@ -1,7 +1,10 @@
 @import "./fonts.scss";
 @import "~bootstrap/scss/bootstrap";
+$hamburger-layer-color: white;
+@import "~hamburgers/_sass/hamburgers/hamburgers.scss";
 @import "./variables.scss";
 @import "./mixins.scss";
+@import "./global.scss";
 @import "./components/btn.scss";
 @import "./components/navbar.scss";
 @import "./components/overlay.scss";
@@ -10,7 +13,4 @@
 @import "./components/slider.scss";
 @import "./components/about-section.scss";
 @import "./components/advertise-section.scss";
-
-body {
-  font-family: Montserrat, SourceSansPro, Arial, helvetica, sans-serif;
-}
+@import "./components/footer.scss";

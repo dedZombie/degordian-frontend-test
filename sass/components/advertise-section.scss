@@ -1,3 +1,35 @@
 #advertise-section {
   padding-top: 71px;
+  padding-bottom: 65px;
+
+  .placeholder-container {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 75px;
+  }
+
+  .advertise-content-container {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    .advertise-title {
+      font-family: Montserrat;
+      font-weight: 400;
+      font-size: 18px;
+      color: $advertise-font-color;
+      margin-bottom: 18px;
+      &.sub {
+        font-size: 14px;
+        margin-bottom: 14px;
+      }
+      &.content {
+        font-family: OpenSans;
+        font-weight: 300;
+        font-size: 14px;
+        margin-bottom: 25px;
+      }
+    }
+  }
 }

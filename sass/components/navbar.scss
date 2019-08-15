@@ -1,3 +1,8 @@
 .navbar-main{
   background-color: $color-primary;
+
+  .dropdown-toggle[data-icon="arrow"] {
+    border: 0;
+    background-color: transparent;
+  }
 }
